@@ -189,7 +189,6 @@ am__aclocal_m4_deps = $(top_srcdir)/m4/00gnulib.m4 \
 	$(top_srcdir)/m4/msvc-nothrow.m4 $(top_srcdir)/m4/nls.m4 \
 	$(top_srcdir)/m4/nocrash.m4 \
 	$(top_srcdir)/m4/non-recursive-gnulib-prefix-hack.m4 \
-	$(top_srcdir)/m4/off_t.m4 $(top_srcdir)/m4/po.m4 \
 	$(top_srcdir)/m4/progtest.m4 $(top_srcdir)/m4/quotearg.m4 \
 	$(top_srcdir)/m4/ssize_t.m4 $(top_srcdir)/m4/stdbool.m4 \
 	$(top_srcdir)/m4/stddef_h.m4 $(top_srcdir)/m4/stdio_h.m4 \
@@ -1312,7 +1311,6 @@ EXTRA_DIST = README-dev ChangeLog.O m4/gnulib-cache.m4 man/hello.x \
 	lib/xalloc-oversized.h
 
 # Subdirectories to descend into.
-SUBDIRS = po
 hello_SOURCES = src/hello.c src/system.h
 hello_LDADD = $(LIBINTL) $(top_builddir)/lib/lib$(PACKAGE).a
 CLEANFILES = $(am__append_2) lib/configmake.h lib/configmake.h-t \
@@ -2612,31 +2610,6 @@ uninstall-man: uninstall-man1
 @BUILD_FROM_GIT_TRUE@	chmod a=r $@-t
 @BUILD_FROM_GIT_TRUE@	mv -f $@-t $@
 
-# Verify that all source files using _() are listed in po/POTFILES.in.
-# The idea is to run this before making pretests, as well as official
-# releases, so that translators will be sure to have all the messages.
-# (From coreutils.)
-po-check:
-	if test -f po/POTFILES.in; then					\
-	  grep -E -v '^(#|$$)' po/POTFILES.in				\
-	    | grep -v '^src/false\.c$$' | sort > $@-1;			\
-	  files=;							\
-	  for file in $$($(CVS_LIST_EXCEPT)) `find * -name '*.[ch]'`; do \
-	    case $$file in						\
-	    gnulib/* | man/*) continue;;				\
-	    esac;							\
-	    case $$file in						\
-	    *.[ch])							\
-	      base=`expr " $$file" : ' \(.*\)\..'`;			\
-	      { test -f $$base.l || test -f $$base.y; } && continue;;	\
-	    esac;							\
-	    files="$$files $$file";					\
-	  done;								\
-	  grep -E -l '\b(N?_|gettext *)\([^)"]*("|$$)' $$files		\
-	    | sort -u > $@-2;						\
-	  diff -u $@-1 $@-2 || exit 1;					\
-	  rm -f $@-1 $@-2;						\
-	fi
 wwwdoc:
 	rm -rf $(doctemp) && mkdir $(doctemp)
 	cd $(doctemp) \
