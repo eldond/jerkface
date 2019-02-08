@@ -296,14 +296,14 @@ AM_V_texidevnull = $(am__v_texidevnull_@AM_V@)
 am__v_texidevnull_ = $(am__v_texidevnull_@AM_DEFAULT_V@)
 am__v_texidevnull_0 = > /dev/null
 am__v_texidevnull_1 = 
-INFO_DEPS = $(srcdir)/doc/hello.info
+INFO_DEPS = $(srcdir)/doc/jerkface.info
 TEXINFO_TEX = $(top_srcdir)/build-aux/texinfo.tex
 am__TEXINFO_TEX_DIR = $(top_srcdir)/build-aux
-DVIS = doc/hello.dvi
-PDFS = doc/hello.pdf
-PSS = doc/hello.ps
-HTMLS = doc/hello.html
-TEXINFOS = doc/hello.texi
+DVIS = doc/jerkface.dvi
+PDFS = doc/jerkface.pdf
+PSS = doc/jerkface.ps
+HTMLS = doc/jerkface.html
+TEXINFOS = doc/jerkface.texi
 TEXI2DVI = texi2dvi
 TEXI2PDF = $(TEXI2DVI) --pdf --batch
 MAKEINFOHTML = $(MAKEINFO) --html
@@ -1317,7 +1317,7 @@ hello_SOURCES = src/hello.c src/system.h
 hello_LDADD = $(LIBINTL) $(top_builddir)/lib/lib$(PACKAGE).a
 CLEANFILES = $(am__append_2) lib/configmake.h lib/configmake.h-t \
 	lib/charset.alias lib/ref-add.sed lib/ref-del.sed
-@GIT_CROSS_COMPILING_FALSE@man_MANS = hello.1
+@GIT_CROSS_COMPILING_FALSE@man_MANS = jerkface.1
 TESTS = \
 	tests/greeting-1 \
 	tests/greeting-2 \
@@ -1365,8 +1365,8 @@ TESTS_ENVIRONMENT = \
 gendocs = build-aux/gendocs.sh
 gendocs_envvars = GENDOCS_TEMPLATE_DIR=doc
 #
-manual = hello
-manual_title = Hello, GNU World
+manual = jerkface
+manual_title = jerkface, from Hello, GNU World
 email = $(PACKAGE_BUGREPORT)
 gendocs_args = --email $(email) $(manual) $(manual_title)
 #
@@ -1404,7 +1404,7 @@ _NORETURN_H = $(top_srcdir)/build-aux/snippet/_Noreturn.h
 ARG_NONNULL_H = lib/arg-nonnull.h
 CXXDEFS_H = lib/c++defs.h
 WARN_ON_USE_H = lib/warn-on-use.h
-info_TEXINFOS = doc/hello.texi
+info_TEXINFOS = doc/jerkface.texi
 doc_hello_TEXINFOS = \
   doc/fdl.texi
 

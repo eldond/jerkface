@@ -1,0 +1,7 @@
+0. Do tests with GNU hello world according to https://docs.fedoraproject.org/en-US/quick-docs/create-hello-world-rpm/
+1. Copy GNU hello world
+2. Edit documentation to replace friendly hello with jerkface
+3. Install utilities
+   - yum install texi2html texinfo 
+   - apt-get install texinfo
+4.  in doc/ folder, run makeinfo on jerkface.texi to make jerkface.info
