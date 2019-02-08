@@ -562,6 +562,7 @@ AC_DEFUN([gl_FILE_LIST], [
   m4/nocrash.m4
   m4/non-recursive-gnulib-prefix-hack.m4
   m4/off_t.m4
+  m4/po.m4
   m4/printf-posix.m4
   m4/progtest.m4
   m4/quotearg.m4

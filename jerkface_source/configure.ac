@@ -64,5 +64,6 @@ dnl i18n support from GNU gettext.
 AM_GNU_GETTEXT_VERSION([0.18.1])
 AM_GNU_GETTEXT([external])
 
-AC_CONFIG_FILES([Makefile])
+AC_CONFIG_FILES([Makefile
+           po/Makefile.in])
 AC_OUTPUT
