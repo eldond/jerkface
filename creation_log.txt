@@ -5,3 +5,5 @@
    - yum install texi2html texinfo 
    - apt-get install texinfo
 4.  in doc/ folder, run makeinfo on jerkface.texi to make jerkface.info
+5. The name of the main source file (hello.c) seems to be used to define names of other things, so it has to match. I used `sed -i 's/hello.c/jerkface.c/g' */*.*` with variants on the *s to hit everything.
+6. Install GNU automake to get access to aclocal if not already installed ( http://ftp.gnu.org/gnu/automake/ )
