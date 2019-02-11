@@ -36,7 +36,7 @@ EXTRA_DIST = \
 SUBDIRS = po
 
 bin_PROGRAMS = hello
-hello_SOURCES = src/hello.c src/system.h
+hello_SOURCES = src/jerkface.c src/system.h
 
 hello_LDADD = $(LIBINTL) $(top_builddir)/lib/lib$(PACKAGE).a
 

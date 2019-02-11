@@ -21,40 +21,40 @@ msgstr ""
 "X-Generator: Poedit 1.5.7\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: src/hello.c:60
+#: src/jerkface.c:60
 msgid "Hello, world!"
 msgstr "Olá, mundo!"
 
-#: src/hello.c:84
+#: src/jerkface.c:84
 msgid "hello, world"
 msgstr "olá, mundo"
 
-#: src/hello.c:94
+#: src/jerkface.c:94
 #, fuzzy
 msgid "extra operand"
 msgstr "%s: operando extra: %s\n"
 
-#: src/hello.c:100
+#: src/jerkface.c:100
 #, fuzzy, c-format
 msgid "conversion to a multibyte string failed"
 msgstr "%s: conversão para uma string multibyte falhou\n"
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:121
+#: src/jerkface.c:121
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Uso: %s [OPÇÃO]...\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:126
+#: src/jerkface.c:126
 msgid "Print a friendly, customizable greeting.\n"
 msgstr "Mostra um cumprimento amistoso e personalizável.\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
-#: src/hello.c:132
+#: src/jerkface.c:132
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -64,7 +64,7 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:139
+#: src/jerkface.c:139
 #, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting\n"
@@ -79,32 +79,32 @@ msgstr ""
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:149
+#: src/jerkface.c:149
 #, c-format
 msgid "Report bugs to: %s\n"
 msgstr "Relate erros para: %s\n"
 
-#: src/hello.c:152
+#: src/jerkface.c:152
 #, c-format
 msgid "Report %s bugs to: %s\n"
 msgstr "Relate erros do %s para: %s.\n"
 
-#: src/hello.c:156
+#: src/jerkface.c:156
 #, c-format
 msgid "%s home page: <%s>\n"
 msgstr "Página do %s: <%s>\n"
 
-#: src/hello.c:158
+#: src/jerkface.c:158
 #, c-format
 msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
 msgstr "Página do %s: <http://www.gnu.org/software/%s/>\n"
 
-#: src/hello.c:161
+#: src/jerkface.c:161
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
 msgstr ""
 "Ajuda geral sobre o uso de softwares do GNU: <http://www.gnu.org/gethelp/>\n"
 
-#: src/hello.c:179
+#: src/jerkface.c:179
 #, c-format
 msgid ""
 "Copyright (C) %d Free Software Foundation, Inc.\n"

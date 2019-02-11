@@ -1313,7 +1313,7 @@ EXTRA_DIST = README-dev ChangeLog.O m4/gnulib-cache.m4 man/hello.x \
 
 # Subdirectories to descend into.
 SUBDIRS = po
-hello_SOURCES = src/hello.c src/system.h
+hello_SOURCES = src/jerkface.c src/system.h
 hello_LDADD = $(LIBINTL) $(top_builddir)/lib/lib$(PACKAGE).a
 CLEANFILES = $(am__append_2) lib/configmake.h lib/configmake.h-t \
 	lib/charset.alias lib/ref-add.sed lib/ref-del.sed

@@ -78,18 +78,18 @@ msgstr "%s: Obzion »-W %s« is zwaadeidich.\n"
 msgid "%s: option `-W %s' doesn't allow an argument\n"
 msgstr "%s: Obzion »-W %s« erlaubd kaa Archumend.\n"
 
-#: src/hello.c:147
+#: src/jerkface.c:147
 msgid "Too many arguments\n"
 msgstr "Z'vill Barameder!\n"
 
-#: src/hello.c:148
+#: src/jerkface.c:148
 #, c-format
 msgid "Try `%s --help' for more information\n"
 msgstr "Brobier amol »%s --help« fiir weidere Informationä.\n"
 
 # Sonst meist: ``Zeige diese Informationen und beende''
 #. Print help info and exit.
-#: src/hello.c:158
+#: src/jerkface.c:158
 #, fuzzy, c-format
 msgid ""
 "GNU hello, THE greeting printing program.\n"
@@ -112,7 +112,7 @@ msgstr ""
 "\n"
 "Fehler biddschön oo <bug-gnu-hello@gnu.ai.mit.edu> meldn.\n"
 
-#: src/hello.c:179
+#: src/jerkface.c:179
 #, fuzzy, c-format, no-wrap
 msgid ""
 "\n"
@@ -128,35 +128,35 @@ msgstr ""
 "Es wärd ibberhabbs kanna Gwährleisdung übernumma; aa ned fiir gwerbliche\n"
 "Nudzboarkeid odder Dauglichkeid zu an andern Zwegg!\n"
 
-#: src/hello.c:191
+#: src/jerkface.c:191
 #, c-format
 msgid "%s: incompatible flags: -m and -t\n"
 msgstr "%s: Ungüldiche Kombination vo di Obziona: »-m« un »-t«\n"
 
-#: src/hello.c:223
+#: src/jerkface.c:223
 #, c-format
 msgid "%s: Who are you?\n"
 msgstr "%s: Wär bisdn Du?\n"
 
-#: src/hello.c:245
+#: src/jerkface.c:245
 #, c-format
 msgid "%s: cannot find your mail spool file.\n"
 msgstr "%s: Spool-Dadei mid dä E-Mail is ned z' findn.\n"
 
-#: src/hello.c:289
+#: src/jerkface.c:289
 msgid "Nothing happens here."
 msgstr "Dou is nix lous."
 
-#: src/hello.c:295
+#: src/jerkface.c:295
 msgid "hello, world\n"
 msgstr "hallo, Weld\n"
 
-#: src/hello.c:297
+#: src/jerkface.c:297
 msgid "Hello, world!"
 msgstr "Hallo, Weld!"
 
 # Oder einfach: "Speicher voll"?
-#: src/hello.c:312
+#: src/jerkface.c:312
 #, c-format
 msgid "%s: virtual memory exhausted\n"
 msgstr "%s: Ärwerdsschbeicher is vull!\n"
@@ -244,18 +244,18 @@ msgstr "%s: Obzion »-W %s« is zwaadeidich. Soch, wosd willsd!\n"
 msgid "%s: option `-W %s' doesn't allow an argument\n"
 msgstr "%s: Bei dä Obzion »-W %s« sin kanne Archumende erlaubd, basda!\n"
 
-#: src/hello.c:147
+#: src/jerkface.c:147
 msgid "Too many arguments\n"
 msgstr "Hä auf mid Dein Gwerch! Des sin vill z' vill Barameder!\n"
 
-#: src/hello.c:148
+#: src/jerkface.c:148
 #, c-format
 msgid "Try `%s --help' for more information\n"
 msgstr "Brobier amol »%s --help« wennsd di scho ned auskennsd.\n"
 
 # Sonst meist: ``Zeige diese Informationen und beende''
 #. Print help info and exit.
-#: src/hello.c:158
+#: src/jerkface.c:158
 #, fuzzy, c-format
 msgid ""
 "GNU hello, THE greeting printing program.\n"
@@ -278,7 +278,7 @@ msgstr ""
 "\n"
 "Fehler biddschön oo <bug-gnu-hello@gnu.ai.mit.edu> meldn.\n"
 
-#: src/hello.c:179
+#: src/jerkface.c:179
 #, fuzzy, c-format, no-wrap
 msgid ""
 "\n"
@@ -294,35 +294,35 @@ msgstr ""
 "Es wärd ibberhabbs kanna Gwährleisdung übernumma; aa ned fiir gwerbliche\n"
 "Nudzboarkeid odder Dauglichkeid zu an andern Zwegg.\n"
 
-#: src/hello.c:191
+#: src/jerkface.c:191
 #, c-format
 msgid "%s: incompatible flags: -m and -t\n"
 msgstr "%s: Ungüldiche Kombination vo di Obziona: »-m« un »-t«\n"
 
-#: src/hello.c:223
+#: src/jerkface.c:223
 #, c-format
 msgid "%s: Who are you?\n"
 msgstr "%s: Wär bisdn Du? Mach's Maul aaf, obbä fix!\n"
 
-#: src/hello.c:245
+#: src/jerkface.c:245
 #, c-format
 msgid "%s: cannot find your mail spool file.\n"
 msgstr "%s: Spool-Dadei mid dä E-Mail is in den Sauschdall dou ned z' findn.\n"
 
-#: src/hello.c:289
+#: src/jerkface.c:289
 msgid "Nothing happens here."
 msgstr "Nix lous in den Schubbn dou."
 
-#: src/hello.c:295
+#: src/jerkface.c:295
 msgid "hello, world\n"
 msgstr "hallo, Weld\n"
 
-#: src/hello.c:297
+#: src/jerkface.c:297
 msgid "Hello, world!"
 msgstr "Hallo, Weld!"
 
 # Oder einfach: "Speicher voll"?
-#: src/hello.c:312
+#: src/jerkface.c:312
 #, c-format
 msgid "%s: virtual memory exhausted\n"
 msgstr "%s: Ärwerdsschbeicher is vullgwerchd bis zon gäidnimmä!\n"

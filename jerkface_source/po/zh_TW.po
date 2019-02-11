@@ -17,41 +17,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: src/hello.c:60
+#: src/jerkface.c:60
 msgid "Hello, world!"
 msgstr "哈囉，大家好！"
 
-#: src/hello.c:84
+#: src/jerkface.c:84
 #, fuzzy
 msgid "hello, world"
 msgstr "哈囉，大家好\n"
 
-#: src/hello.c:94
+#: src/jerkface.c:94
 #, fuzzy
 msgid "extra operand"
 msgstr "%s：其他運算元：%s\n"
 
-#: src/hello.c:100
+#: src/jerkface.c:100
 #, c-format
 msgid "conversion to a multibyte string failed"
 msgstr ""
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:121
+#: src/jerkface.c:121
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "用法：%s [選項]…\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:126
+#: src/jerkface.c:126
 msgid "Print a friendly, customizable greeting.\n"
 msgstr "印出友善的自訂問候。\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
-#: src/hello.c:132
+#: src/jerkface.c:132
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -61,7 +61,7 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:139
+#: src/jerkface.c:139
 #, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting\n"
@@ -76,31 +76,31 @@ msgstr ""
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:149
+#: src/jerkface.c:149
 #, c-format
 msgid "Report bugs to: %s\n"
 msgstr "請將錯誤回報給：%s\n"
 
-#: src/hello.c:152
+#: src/jerkface.c:152
 #, c-format
 msgid "Report %s bugs to: %s\n"
 msgstr "請將 %s 項錯誤回報給：%s\n"
 
-#: src/hello.c:156
+#: src/jerkface.c:156
 #, c-format
 msgid "%s home page: <%s>\n"
 msgstr "%s 的首頁：<%s>\n"
 
-#: src/hello.c:158
+#: src/jerkface.c:158
 #, c-format
 msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
 msgstr "%s 的首頁：<http://www.gnu.org/software/%s/>\n"
 
-#: src/hello.c:161
+#: src/jerkface.c:161
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
 msgstr "使用 GNU 軟體的一般說明：<http://www.gnu.org/gethelp/>\n"
 
-#: src/hello.c:179
+#: src/jerkface.c:179
 #, fuzzy, c-format
 msgid ""
 "Copyright (C) %d Free Software Foundation, Inc.\n"

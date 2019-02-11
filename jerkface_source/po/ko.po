@@ -20,41 +20,41 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: src/hello.c:60
+#: src/jerkface.c:60
 msgid "Hello, world!"
 msgstr "안녕하세요, 여러분!"
 
-#: src/hello.c:84
+#: src/jerkface.c:84
 #, fuzzy
 msgid "hello, world"
 msgstr "안녕, 여러분\n"
 
-#: src/hello.c:94
+#: src/jerkface.c:94
 #, fuzzy
 msgid "extra operand"
 msgstr "%s: 추가 오퍼렌드: %s\n"
 
-#: src/hello.c:100
+#: src/jerkface.c:100
 #, c-format
 msgid "conversion to a multibyte string failed"
 msgstr ""
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:121
+#: src/jerkface.c:121
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "사용법: %s [옵션]...\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:126
+#: src/jerkface.c:126
 msgid "Print a friendly, customizable greeting.\n"
 msgstr "반가운 인사말을 (인사말은 설정할 수 있음) 출력합니다.\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
-#: src/hello.c:132
+#: src/jerkface.c:132
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -64,7 +64,7 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:139
+#: src/jerkface.c:139
 #, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting\n"
@@ -79,31 +79,31 @@ msgstr ""
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:149
+#: src/jerkface.c:149
 #, fuzzy, c-format
 msgid "Report bugs to: %s\n"
 msgstr "버그는 %s 주소로 알려 주십시오.\n"
 
-#: src/hello.c:152
+#: src/jerkface.c:152
 #, fuzzy, c-format
 msgid "Report %s bugs to: %s\n"
 msgstr "버그는 %s 주소로 알려 주십시오.\n"
 
-#: src/hello.c:156
+#: src/jerkface.c:156
 #, c-format
 msgid "%s home page: <%s>\n"
 msgstr ""
 
-#: src/hello.c:158
+#: src/jerkface.c:158
 #, c-format
 msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
 msgstr ""
 
-#: src/hello.c:161
+#: src/jerkface.c:161
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
 msgstr ""
 
-#: src/hello.c:179
+#: src/jerkface.c:179
 #, fuzzy, c-format
 msgid ""
 "Copyright (C) %d Free Software Foundation, Inc.\n"

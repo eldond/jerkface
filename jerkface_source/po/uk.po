@@ -21,40 +21,40 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: src/hello.c:60
+#: src/jerkface.c:60
 msgid "Hello, world!"
 msgstr "Привіт, світе!"
 
-#: src/hello.c:84
+#: src/jerkface.c:84
 msgid "hello, world"
 msgstr "привіт, світе"
 
-#: src/hello.c:94
+#: src/jerkface.c:94
 #, fuzzy
 msgid "extra operand"
 msgstr "%s: зайвий операнд: %s\n"
 
-#: src/hello.c:100
+#: src/jerkface.c:100
 #, fuzzy, c-format
 msgid "conversion to a multibyte string failed"
 msgstr "%s: спроба перетворення у мультибайтовий рядок зазнала невдачі\n"
 
 #. TRANSLATORS: --help output 1 (synopsis)
 #. no-wrap
-#: src/hello.c:121
+#: src/jerkface.c:121
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Користування: %s [ПАРАМЕТР]...\n"
 
 #. TRANSLATORS: --help output 2 (brief description)
 #. no-wrap
-#: src/hello.c:126
+#: src/jerkface.c:126
 msgid "Print a friendly, customizable greeting.\n"
 msgstr "Виводить дружнє, придатне до налаштовування вітання.\n"
 
 #. TRANSLATORS: --help output 3: options 1/2
 #. no-wrap
-#: src/hello.c:132
+#: src/jerkface.c:132
 msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
@@ -64,7 +64,7 @@ msgstr ""
 
 #. TRANSLATORS: --help output 4: options 2/2
 #. no-wrap
-#: src/hello.c:139
+#: src/jerkface.c:139
 #, fuzzy
 msgid ""
 "  -t, --traditional       use traditional greeting\n"
@@ -79,33 +79,33 @@ msgstr ""
 #. for this application.  Please add _another line_ with the
 #. address for translation bugs.
 #. no-wrap
-#: src/hello.c:149
+#: src/jerkface.c:149
 #, c-format
 msgid "Report bugs to: %s\n"
 msgstr "Повідомляйте про вади на адресу %s\n"
 
-#: src/hello.c:152
+#: src/jerkface.c:152
 #, c-format
 msgid "Report %s bugs to: %s\n"
 msgstr "Про вади у %s повідомляйте за такою адресою: %s\n"
 
-#: src/hello.c:156
+#: src/jerkface.c:156
 #, c-format
 msgid "%s home page: <%s>\n"
 msgstr "Домашня сторінка %s: <%s>\n"
 
-#: src/hello.c:158
+#: src/jerkface.c:158
 #, c-format
 msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
 msgstr "Домашня сторінка %s: <http://www.gnu.org/software/%s/>\n"
 
-#: src/hello.c:161
+#: src/jerkface.c:161
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
 msgstr ""
 "Загальна довідкова інформація щодо використання програмного забезпечення "
 "GNU: <http://www.gnu.org/gethelp/>\n"
 
-#: src/hello.c:179
+#: src/jerkface.c:179
 #, c-format
 msgid ""
 "Copyright (C) %d Free Software Foundation, Inc.\n"
